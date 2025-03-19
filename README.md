@@ -1,12 +1,57 @@
-# React + Vite
+# MovieFlex 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MovieFlex is a modern movie browsing application built with **React, Tailwind CSS, and React Router**. It allows users to explore movies, view detailed information, and watch trailers.
 
-Currently, two official plugins are available:
+## 📂 Project Structure
+```
+src/
+├── assets/
+│   └── images/            # Static images (if needed)
+├── components/
+│   ├── Filter.jsx         # Movie filtering component
+│   ├── MovieCard.jsx      # Movie card component
+│   ├── MovieList.jsx      # Movie list component
+│   └── MovieDescription.jsx # Movie details component
+├── data/
+│   └── movies.js          # Sample movie data
+├── pages/
+│   ├── Home.jsx           # Home page with movie listings
+│   ├── MoviePage.jsx      # Individual movie page with trailer
+└── App.jsx                # Main application entry
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+✅ **Browse Movies** - Displays a list of movies with posters, ratings, and details.  
+✅ **Movie Details Page** - Click on a movie to view its description, trailer, and actors.  
+✅ **Dark UI Design** - A sleek dark theme for a modern experience.  
+✅ **Responsive Design** - Fully optimized for desktop and mobile.  
+✅ **React Router** - Enables seamless navigation between pages.  
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/movieflex.git
+cd movieflex
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Run the App
+```bash
+npm run dev
+```
+> The app will be available at `http://localhost:5173/` (or another port assigned by Vite).
+
+## 🛠️ Technologies Used
+- **React** - Frontend library
+- **Tailwind CSS** - Styling framework
+- **React Router** - Client-side navigation
+- **Vite** - Fast development server
+
+
+
+
+
